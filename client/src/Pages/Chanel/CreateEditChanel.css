@@ -1,0 +1,66 @@
+.container_CreateEditChanel{
+    background-color: rgba(0, 0, 0, 0.697);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+    display: flex;
+}
+.container2_CreateEditChanel{
+    margin: auto;
+    background-color: rgba(55,57,67,0.293);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 20rem;
+    height: 30rem;
+    padding: 0.8rem;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px white,-2px 2px white;
+}
+.container2_CreateEditChanel h1{
+    text-decoration: underline;
+    color: whitesmoke;
+}
+.container2_CreateEditChanel input,
+.container2_CreateEditChanel textarea
+{
+    color: aliceblue;
+    resize: none;
+    padding: 0.3rem;
+    border: 2px solid rgb(137,243,250);
+}
+.ibtn,
+.ibox{
+    font-size: 1rem;
+    padding: 0.2rem;
+    background-color: transparent;
+    color: black;
+    border-radius: 0.2rem;
+    margin: 0.2rem;
+    font-weight: bold;
+}
+.ibtn{
+    background-color: rgb(28, 28, 28);
+    transition: 2s all ;
+}
+.ibtn:hover{
+    color: orange;
+    background-color: black;
+}
+.ibtn_x{
+    border: 0;
+    padding: 0;
+    color: white;
+    background-color: transparent;
+    font-size: 5rem;
+    right: 50px;
+    cursor: pointer;
+    position: absolute;
+transition: 1s color;
+}
+
+.ibtn_x:hover{
+    color: orange;
+}

@@ -1,0 +1,39 @@
+.conatiner_whl {
+  margin: 0;
+  display: flex;
+  padding: 0.5rem;
+  justify-content: space-around;
+}
+.box_WHL {
+  width: 45%;
+  padding: 0.8rem;
+  margin: 00.8rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.box_WHL b {
+  font-size: 3rem;
+}
+.clear_History_btn {
+  color: grey;
+  font-size: 1.5rem;
+  cursor: pointer;
+  font-weight: bold;
+  margin: auto 0;
+}
+.clear_History_btn:hover {
+  color: white;
+}
+.rightSide_whl h1 {
+  text-decoration: underline;
+  color: white;
+}
+.leftside_whl {
+  background-color: rgba(0, 0, 0, 0.153);
+  height: 50vh;
+}
+
+.whl_list{
+    overflow-y: auto;
+}
